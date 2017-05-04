@@ -25,6 +25,8 @@
 ## 192.168.1.110
 [pull_mode_hosts]
 fabizeid-VirtualBox2.local ansible_user=fabizeid ansible_become_pass=P@ssword1
+alcstem-Latitude-E6410.local ansible_user=alcstem ansible_become_pass=bourjhammoud
+
 # If you have multiple hosts following a pattern you can specify
 # them like this:
 

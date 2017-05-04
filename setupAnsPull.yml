@@ -11,14 +11,14 @@
 #
 # DO NOT RUN THIS AGAINST YOUR HOSTS WITHOUT CHANGING THE repo_url
 # TO SOMETHING YOU HAVE PERSONALLY VERIFIED
-# 
-# ansible-playbook -v /media/sf_MachineLearningCourse/ansible/setupAnsPull.yml
-#
+# details for setting up remote host is in gdrive tech4leb/OS/remote setup
+# ansible-playbook -v -C -i etc/ansible/hosts /media/sf_MachineLearningCourse/ansible/setupAnsPull.yml
+# add -C for dryrun
 # 
 ---
 
 - hosts: pull_mode_hosts
-#  strategy: debug
+#  strategy: debug 
   become: true
 
   vars:
